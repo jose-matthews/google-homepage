@@ -1,0 +1,171 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrapper {
+	min-height: 100%;
+}
+
+#main {
+	padding-bottom: 25px;
+}
+
+/* header */
+
+#header {
+	padding-top: 8px;
+	padding-right: 10px;
+}
+
+ul.header_links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: arial;
+	font-size: 14px;
+}
+
+ul.header_links li {
+	float: right;
+	padding: 8px 12px;
+}
+
+ul.header_links li a {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+a.hover:hover {
+	text-decoration: underline;
+}
+
+.app_img {
+	height: 15px;
+	width: 15px;
+}
+
+ul li.sign_in {
+	background-color: #3d74f3;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+ul li.sign_in a {
+	display: block;
+	color: white;
+}
+
+/* Google Image */
+
+#google_image {
+	padding-top: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Search Bar */
+
+#search_box {
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+#search_box input {
+	width: 420px;
+	height: 35px;
+	border: 1px solid #d7d7d7;
+	padding-left: 10px;
+	padding-right: 42px;
+}
+
+#search_box input:focus {
+	border-color: #8cacfe;
+}
+
+#search_box img {
+	height: 35px;
+	position: absolute;
+	margin-left: -45px;
+	margin-top: 3px;
+}
+
+/* Search Buttons */
+
+#search_buttons {
+	padding-top: 2px;
+	text-align: center;
+}
+
+#search_buttons input {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: gray;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #f4f4f4;
+}
+
+#search_buttons input:hover {
+	color: #202020;
+	box-shadow: 1px 1px 2px #d2d2d2;
+	border: 1px solid #d2d2d2;
+	padding: 7px 14px 7px 14px;
+}
+
+/* MOTD */
+
+div.motd {
+	text-align: center;
+	padding-top: 1px;
+	font-size: 13px;
+	font-family: arial;
+}
+
+div.motd a {
+	text-decoration: none;
+}
+
+div.motd a:hover {
+	text-decoration: underline;
+}
+
+/* footer */
+
+ul.footer_links {
+	position: relative;
+	clear:both;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: arial;
+	font-size: 14px;
+	background-color: #f4f4f4;
+	width: 100%;
+}
+
+ul li.right {
+	float: right;
+	padding: 8px 12px;
+}
+
+ul li.left {
+	float: left;
+	padding: 8px 12px;
+}
+
+ul.footer_links li a {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+ul.footer_links li a:hover {
+	text-decoration: underline;
+}
